@@ -22,6 +22,8 @@
   --color-body: #918ca4;
 }
 
+/* typography */
+
 html {
   font-size: 62.5%;
 }
@@ -71,5 +73,39 @@ p {
 
   h3 {
     font-size: 2.4rem;
+  }
+}
+
+/* links: */
+
+a {
+  text-decoration: none;
+}
+
+.link-arrow {
+  align-items: center;
+  color: var(--color-accent);
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link__icon {
+  transition: transform 0.15s;
+}
+
+.link-arrow:hover .link__icon {
+  transform: translate(0.5rem);
+}
+
+.link__icon {
+  font-size: 2.5rem;
+  margin-left: 0.3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.5rem;
   }
 }
