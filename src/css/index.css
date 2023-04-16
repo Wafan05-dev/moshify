@@ -269,3 +269,44 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* Inputs */
+.input {
+  border-radius: 40px;
+  border: 0;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: none;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
+
+/* .input-group {
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 10px #f9eded;
+  padding: 1rem;
+}
+
+.input__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__button .icon {
+  fill: #fff;
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
+} */

@@ -1,7 +1,11 @@
-import Button from "./components/Button";
+import Search from "./components/Search";
 
 function App() {
-  return <Button />;
+  return (
+    <div>
+      <Search />
+    </div>
+  );
 }
 
 export default App;
