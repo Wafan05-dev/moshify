@@ -28,6 +28,7 @@
   --color-accent: #ff3400;
   --color-headings: #1b0760;
   --color-body: #918ca4;
+  --border-radius: 50px;
 }
 
 *,
@@ -272,7 +273,7 @@ a {
 
 /* Inputs */
 .input {
-  border-radius: 40px;
+  border-radius: var(--border-radius);
   border: 0;
   border: 1px solid #ccc;
   color: var(--color-headings);
@@ -285,28 +286,35 @@ a {
   color: #cdcbd7;
 }
 
+.input-group {
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 10px 10px #f9eded;
+  display: flex;
+  padding: 1rem;
+}
+
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding-left: 2rem;
+}
+
+.input-group .input__button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+.input__button .icon {
+  fill: #fff;
+  height: 25px;
+  margin-right: 1rem;
+  width: 25px;
+}
+
 @media screen and (min-width: 1024px) {
   .input {
     font-size: 1.5rem;
   }
 }
-
-/* .input-group {
-  display: flex;
-  border-radius: 50px;
-  box-shadow: 0 0 10px 10px #f9eded;
-  padding: 1rem;
-}
-
-.input__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.input__button .icon {
-  fill: #fff;
-  width: 25px;
-  height: 25px;
-  margin-right: 1rem;
-} */
