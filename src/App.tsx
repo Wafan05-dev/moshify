@@ -1,7 +1,7 @@
-import Icon from "./components/Icon";
+import Button from "./components/Button";
 
 function App() {
-  return <Icon />;
+  return <Button />;
 }
 
 export default App;
