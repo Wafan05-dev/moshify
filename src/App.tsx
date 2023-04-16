@@ -1,11 +1,7 @@
-import List from "./components/List";
+import Icon from "./components/Icon";
 
 function App() {
-  return (
-    <div>
-      <List />
-    </div>
-  );
+  return <Icon />;
 }
 
 export default App;
