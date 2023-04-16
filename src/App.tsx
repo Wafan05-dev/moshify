@@ -1,9 +1,9 @@
-import Link from "./components/Link";
+import Badge from "./components/Badge";
 
 function App() {
   return (
-    <div className="App">
-      <Link />
+    <div>
+      <Badge />
     </div>
   );
 }
