@@ -1,9 +1,9 @@
-import Badge from "./components/Badge";
+import List from "./components/List";
 
 function App() {
   return (
     <div>
-      <Badge />
+      <List />
     </div>
   );
 }
