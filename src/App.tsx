@@ -1,7 +1,7 @@
-import Card from "./components/Card";
+import PopularCard from "./components/PopularCard";
 
 function App() {
-  return <Card />;
+  return <PopularCard />;
 }
 
 export default App;

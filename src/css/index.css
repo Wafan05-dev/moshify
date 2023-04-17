@@ -387,6 +387,23 @@ a {
   letter-spacing: 1px;
 }
 
+.card--popular {
+  width: 100%;
+}
+
+.card--popular .card__header {
+  position: relative;
+}
+
+.card--popular .card__header::before {
+  content: url(../assets/images/popular.svg);
+  width: 40px;
+  display: inline-block;
+  position: absolute;
+  top: -0.3rem;
+  right: 5%;
+}
+
 @media screen and (min-width: 1024px) {
   .card__heading {
     font-size: 1.4rem;
