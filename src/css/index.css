@@ -134,6 +134,7 @@ a {
 
 .badge--small {
   font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .badge--primary {
@@ -170,6 +171,7 @@ a {
 
 .list__item {
   padding: 0 4rem 4rem 0;
+  white-space: nowrap;
 }
 
 .list--inline {
@@ -345,4 +347,60 @@ a {
 .card--secondary .card__header {
   background-color: var(--color-secondary);
   color: #fff;
+}
+
+.card__heading {
+  font-size: 2.4rem;
+  color: #fff;
+  margin: 0;
+}
+
+.card__price {
+  font-size: 6rem;
+}
+
+.card__date {
+  font-size: 2rem;
+  margin-left: 1rem;
+  opacity: 0.8;
+}
+
+.card__text {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.card .badge {
+  margin-left: 2rem;
+}
+
+.card--primary .badge {
+  background-color: #126de4;
+}
+
+.card--secondary .badge {
+  background-color: #02cdf1;
+}
+
+.card .list__item {
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card__heading {
+    font-size: 1.4rem;
+  }
+
+  .card__price {
+    font-size: 5rem;
+  }
+
+  .card__date {
+    font-size: 1.6rem;
+  }
+
+  .card__text {
+    font-size: 1.7rem;
+  }
 }
