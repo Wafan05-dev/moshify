@@ -1,11 +1,7 @@
-import Search from "./components/Search";
+import Card from "./components/Card";
 
 function App() {
-  return (
-    <div>
-      <Search />
-    </div>
-  );
+  return <Card />;
 }
 
 export default App;
