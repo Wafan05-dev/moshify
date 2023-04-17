@@ -2,7 +2,7 @@ import Quote from "../components/Quote";
 
 const Testimonial = () => {
   return (
-    <div className="testimonial">
+    <div className="card testimonial">
       <div className="grid grid--cols-2">
         <div className="testimonial__image-container">
           <img
