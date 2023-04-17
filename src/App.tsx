@@ -1,7 +1,7 @@
-import Media from "./components/Media";
+import Quote from "./components/Quote";
 
 function App() {
-  return <Media />;
+  return <Quote />;
 }
 
 export default App;
