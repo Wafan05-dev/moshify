@@ -1,7 +1,7 @@
-import Grid from "./components/Grid";
+import Testimonial from "./components/Testimonial";
 
 function App() {
-  return <Grid />;
+  return <Testimonial />;
 }
 
 export default App;
