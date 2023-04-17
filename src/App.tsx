@@ -1,7 +1,7 @@
-import PopularCard from "./components/PopularCard";
+import Media from "./components/Media";
 
 function App() {
-  return <PopularCard />;
+  return <Media />;
 }
 
 export default App;

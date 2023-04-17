@@ -421,3 +421,36 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* Media Object */
+.media {
+  display: flex;
+}
+
+.media__image {
+  margin: 1rem;
+}
+
+.media__heading {
+  color: #fff;
+  font-size: 2.4rem;
+  margin: 0 0 1rem;
+}
+
+.media__body {
+  margin-left: 2.5rem;
+}
+
+.media__description {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .media__heading {
+    font-size: 1.8rem;
+  }
+
+  .media__description {
+    font-size: 1.8rem;
+  }
+}
