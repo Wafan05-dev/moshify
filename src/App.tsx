@@ -1,7 +1,7 @@
-import Quote from "./components/Quote";
+import Grid from "./components/Grid";
 
 function App() {
-  return <Quote />;
+  return <Grid />;
 }
 
 export default App;
