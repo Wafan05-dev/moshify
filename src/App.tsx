@@ -1,13 +1,7 @@
-import Collapsible from "./components/Collapsible";
+import Block from "./components/Block";
 
 function App() {
-  return (
-    <>
-      <Collapsible />
-      <Collapsible />
-      <Collapsible />
-    </>
-  );
+  return <Block />;
 }
 
 export default App;
