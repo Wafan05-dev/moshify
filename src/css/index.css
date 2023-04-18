@@ -227,6 +227,10 @@ a {
   fill: #fff;
 }
 
+.icon--white {
+  fill: #fff;
+}
+
 .icon-container {
   align-items: center;
   background-color: #f3f9fa;
@@ -656,4 +660,42 @@ a {
     margin-left: 3.5rem;
     margin-right: 1rem;
   }
+}
+
+/* collapsible */
+.collapsible__heading {
+  margin-top: 0;
+}
+
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible .icon-container {
+  background-color: #393939;
+  height: 50px;
+  width: 50px;
+}
+
+.collapsible__chevron {
+  cursor: pointer;
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+.collapsible__content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(0deg);
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
 }

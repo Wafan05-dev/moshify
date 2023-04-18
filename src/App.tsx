@@ -1,7 +1,13 @@
-import Callout from "./components/Callout";
+import Collapsible from "./components/Collapsible";
 
 function App() {
-  return <Callout />;
+  return (
+    <>
+      <Collapsible />
+      <Collapsible />
+      <Collapsible />
+    </>
+  );
 }
 
 export default App;

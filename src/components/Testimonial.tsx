@@ -11,7 +11,7 @@ const Testimonial = () => {
             alt="A happy smiling customer."
           />
           <div className="icon-container testimonial__icon icon-container--accent">
-            <svg className="icon--small icon--accent">
+            <svg className="icon--small icon--white">
               <use href="../src/assets/icons/sprite.svg#quotes"></use>
             </svg>
           </div>
