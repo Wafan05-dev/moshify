@@ -1,7 +1,7 @@
-import Testimonial from "./components/Testimonial";
+import Callout from "./components/Callout";
 
 function App() {
-  return <Testimonial />;
+  return <Callout />;
 }
 
 export default App;
