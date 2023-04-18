@@ -1,7 +1,12 @@
-import Block from "./components/Block";
+import Collapsible from "./components/Collapsible";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <Block />;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
