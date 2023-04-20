@@ -334,7 +334,6 @@ a {
 
 .input-group {
   border-radius: var(--border-radius);
-  box-shadow: 0 0 10px 10px #f9eded;
   display: flex;
   padding: 1rem;
 }
@@ -819,5 +818,37 @@ a {
   .hero__content {
     text-align: left;
     align-self: center;
+  }
+}
+/* Domain */
+.domain__list {
+  align-items: center;
+  color: var(--color-headings);
+  display: grid;
+  font-size: 2rem;
+  font-weight: bold;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 700px;
+  white-space: nowrap;
+}
+
+.domain .input-group {
+  box-shadow: 0 0 10px 10px #f9eded;
+  margin: 4rem auto;
+  max-width: 600px;
+}
+
+.domain__heading {
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .domain__list {
+    font-size: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-template-rows: 1fr;
   }
 }
