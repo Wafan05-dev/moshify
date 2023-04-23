@@ -345,6 +345,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding-left: 2rem;
+  width: 100%;
 }
 
 .input-group .input__button {
@@ -865,6 +866,26 @@ a {
     font-size: 1.5rem;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     grid-template-rows: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .input-group .btn {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+  }
+
+  ::placeholder {
+    font-size: 1rem;
+    overflow: visible;
+  }
+
+  .domain__list {
+    font-size: 1rem;
+  }
+
+  .domain .badge {
+    padding: 0.8rem 1rem;
   }
 }
 
