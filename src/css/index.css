@@ -890,10 +890,6 @@ a {
 }
 
 /* Plans */
-.plans {
-  padding: 0 6rem;
-}
-
 .plans .card {
   margin: 0 auto 3rem;
   max-width: 500px;
@@ -906,6 +902,38 @@ a {
 
 .plans .card--popular:hover {
   transform: scale(1.15);
+}
+
+@media screen and (max-width: 450px) {
+  .plans .list {
+    font-size: 1.5rem;
+  }
+
+  .plans .card {
+    margin-bottom: 6rem;
+  }
+
+  .plans .card__heading {
+    font-size: 1.5rem;
+  }
+
+  .plans .card__price {
+    font-size: 4rem;
+  }
+
+  .plans .card__date {
+    font-size: 1.5rem;
+  }
+
+  .card--popular .card__header::before {
+    width: 7vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .plans .card--popular:hover {
+    transform: scale(1.05);
+  }
 }
 
 @media screen and (min-width: 1024px) {
