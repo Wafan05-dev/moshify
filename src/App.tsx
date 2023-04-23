@@ -1,4 +1,5 @@
 import Domain from "./components/Domain";
+import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Plans from "./components/Plans";
@@ -9,9 +10,12 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <Hero />
-      <Domain />
-      <Plans />
+      <main>
+        <Hero />
+        <Domain />
+        <Plans />
+        <Feature />
+      </main>
     </>
   );
 }
