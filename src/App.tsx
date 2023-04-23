@@ -1,9 +1,9 @@
-import Feature from "./components/Feature";
+import Showcase from "./components/Showcase";
 
 function App() {
   return (
     <>
-      <Feature />
+      <Showcase />
     </>
   );
 }
