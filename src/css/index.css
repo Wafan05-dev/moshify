@@ -460,10 +460,6 @@ a {
     font-size: 1.7rem;
   }
 
-  .card:hover {
-    transform: scale(1.05);
-  }
-
   .card--popular {
     transform: scale(1.1);
   }
@@ -732,6 +728,7 @@ a {
 
 .block__header {
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .container {
@@ -870,6 +867,14 @@ a {
   margin: 0 auto 3rem;
   max-width: 500px;
   transition: transform 0.3s;
+}
+
+.plans .card:hover {
+  transform: scale(1.05);
+}
+
+.plans .card--popular:hover {
+  transform: scale(1.15);
 }
 
 @media screen and (min-width: 1024px) {

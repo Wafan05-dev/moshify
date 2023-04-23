@@ -1,9 +1,9 @@
-import Showcase from "./components/Showcase";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
     <>
-      <Showcase />
+      <Testimonial />
     </>
   );
 }
