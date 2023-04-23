@@ -8,7 +8,7 @@ const Footer = () => {
           header="products"
           content={[
             "WordPress Hosting",
-            "Free Automated WordPress",
+            "Free Automated",
             "Migrations",
             "Domain Names",
             "Monthly Web Hosting",
@@ -30,7 +30,7 @@ const Footer = () => {
           header="products"
           content={[
             "WordPress Hosting",
-            "Free Automated WordPress",
+            "Free Automated",
             "Migrations",
             "Domain Names",
             "Monthly Web Hosting",
