@@ -1,9 +1,9 @@
-import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Testimonial />
+      <Footer />
     </>
   );
 }
