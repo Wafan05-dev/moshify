@@ -3,6 +3,8 @@ import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Plans from "./components/Plans";
+import Showcase from "./components/Showcase";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Domain />
         <Plans />
         <Feature />
+        <Showcase />
+        <Testimonial />
       </main>
     </>
   );

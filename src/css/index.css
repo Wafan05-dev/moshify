@@ -601,6 +601,16 @@ a {
   }
 }
 
+@media screen and (max-width: 442px) {
+  .testimonial .quote {
+    margin: 0;
+  }
+
+  .testimonial .quote .media__heading {
+    font-size: 2.5rem;
+  }
+}
+
 /* Callout */
 .callout {
   align-items: center;
