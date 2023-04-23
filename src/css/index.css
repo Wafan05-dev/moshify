@@ -1109,6 +1109,24 @@ a {
   opacity: 0.3;
 }
 
+@media screen and (max-width: 420px) {
+  .footer {
+    padding: 0;
+  }
+
+  .footer__section {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .footer__list .list__item {
+    padding: 0;
+  }
+
+  .footer__icons {
+    margin-right: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .footer .grid {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -1123,14 +1141,19 @@ a {
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .footer__list {
     overflow: visible;
   }
 
+  .footer__list .list__item {
+    padding: 0 0 1rem;
+  }
+
   .footer__list a {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   .footer__heading {
