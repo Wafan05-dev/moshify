@@ -59,14 +59,14 @@ const Footer = () => {
             "Cheap SSL Certificate",
           ]}
         />
-        <section className="footer__brand">
+        <div className="footer__brand">
           <img
             className="footer__image"
             src="../../src/assets/images/logo.png"
             alt="Website Logo"
           />
           <p className="footer__copyright">Copyright © 2020 mosh</p>
-        </section>
+        </div>
       </div>
     </footer>
   );

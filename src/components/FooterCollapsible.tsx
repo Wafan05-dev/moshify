@@ -17,7 +17,7 @@ const FooterCollapsible = ({ header, content }: Props) => {
           : "collapsible footer__section"
       }
     >
-      <header className="collapsible__header">
+      <div className="collapsible__header">
         <h2 className="collapsible__heading footer__heading">{header}</h2>
         <div className="icon-container footer__icons">
           <HiChevronDown
@@ -27,7 +27,7 @@ const FooterCollapsible = ({ header, content }: Props) => {
             className="icon icon--white collapsible__chevron"
           />
         </div>
-      </header>
+      </div>
       <ul className="list collapsible__content footer__list">
         {content.map((item) => (
           <li key={item} className="list__item">
