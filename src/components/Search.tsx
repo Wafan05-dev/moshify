@@ -1,6 +1,6 @@
 const Search = () => {
   return (
-    <div className="input-group">
+    <div className="input-group" data-aos="fade-up">
       <input
         className="input"
         type="search"

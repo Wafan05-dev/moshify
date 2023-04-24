@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section className="block block--dark block--skewed-left hero">
       <div className="container grid grid grid--cols-2">
-        <header className="block__header hero__content">
+        <header className="block__header hero__content" data-aos="fade-right">
           <h1 className="block__heading hero__heading">
             Cloud Hosting for Pros
           </h1>
@@ -17,6 +17,7 @@ const Hero = () => {
           className="hero__image"
           src="../../src/assets/images/banner.png"
           alt=""
+          data-aos="zoom-out"
         />
       </div>
     </section>

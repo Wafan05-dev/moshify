@@ -2,7 +2,7 @@ import Search from "./Search";
 
 const Domain = () => {
   return (
-    <section className="block container domain">
+    <section className="block container domain" data-aos="fade-up">
       <header className="block__header">
         <h2 className="domain__heading">
           The best webhosting Starting at per month

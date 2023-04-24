@@ -11,7 +11,7 @@ const Feature = () => {
         </p>
       </div>
       <article className="grid grid--cols-2 feature">
-        <div className="feature__content">
+        <div className="feature__content" data-aos="fade-right">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
               <use href="../src/assets/icons/sprite.svg#easy"></use>
@@ -33,10 +33,11 @@ const Feature = () => {
           className="feature__image"
           src="../../src/assets/images/easy.jpg"
           alt=""
+          data-aos="zoom-in"
         />
       </article>
       <article className="grid grid--cols-2 feature">
-        <div className="feature__content">
+        <div className="feature__content" data-aos="fade-left">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
               <use href="../src/assets/icons/sprite.svg#computer"></use>
@@ -60,10 +61,11 @@ const Feature = () => {
           className="feature__image"
           src="../../src/assets/images/fast.jpg"
           alt=""
+          data-aos="zoom-out"
         />
       </article>
       <article className="grid grid--cols-2 feature">
-        <div className="feature__content">
+        <div className="feature__content" data-aos="fade-right">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
               <use href="../src/assets/icons/sprite.svg#settings"></use>
@@ -87,10 +89,11 @@ const Feature = () => {
           className="feature__image"
           src="../../src/assets/images/wordpress.jpg"
           alt=""
+          data-aos="zoom-in"
         />
       </article>
       <article className="grid grid--cols-2 feature">
-        <div className="feature__content">
+        <div className="feature__content" data-aos="fade-right">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
               <use href="../src/assets/icons/sprite.svg#clock"></use>
@@ -114,6 +117,7 @@ const Feature = () => {
           className="feature__image"
           src="../../src/assets/images/support.jpg"
           alt=""
+          data-aos="zoom-out"
         />
       </article>
     </section>

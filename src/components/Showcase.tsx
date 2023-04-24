@@ -6,11 +6,12 @@ const Showcase = () => {
       </h2>
       <div className="grid grid--cols-2 container">
         <img
+          data-aos="fade-right"
           className="showcase__image"
           src="../../src/assets/images/ipad.png"
           alt="An ipad"
         />
-        <div className="showcase__medias">
+        <div className="showcase__medias" data-aos="fade-up">
           <div className="media">
             <div className="media__image">
               <svg className="icon icon--primary">

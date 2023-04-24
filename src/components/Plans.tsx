@@ -1,6 +1,6 @@
 const Plans = () => {
   return (
-    <section className="block plans">
+    <section className="block plans" data-aos="fade-up">
       <div className="card card--secondary">
         <header className="card__header">
           <h3 className="card__heading">Entry</h3>

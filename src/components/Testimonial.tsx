@@ -2,7 +2,7 @@ import Quote from "../components/Quote";
 
 const Testimonial = () => {
   return (
-    <section className="block">
+    <section className="block" data-aos="zoom-in">
       <header className="block__header">
         <h2>What our Customer are Saying</h2>
         <p>
