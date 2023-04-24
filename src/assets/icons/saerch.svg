@@ -1,0 +1,3 @@
+        <svg className="icon">
+          <use href="../src/assets/icons/sprite.svg#search"></use>
+        </svg>

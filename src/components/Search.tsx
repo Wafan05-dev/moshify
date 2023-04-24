@@ -1,3 +1,5 @@
+import search from "../assets/icons/sprite.svg";
+
 const Search = () => {
   return (
     <div className="input-group" data-aos="fade-up">
@@ -8,7 +10,7 @@ const Search = () => {
       ></input>
       <button className="btn btn--accent input__button">
         <svg className="icon">
-          <use href="../public/sprite.svg#search"></use>
+          <use href={`${search}#search`} id="search"></use>
         </svg>
         search
       </button>

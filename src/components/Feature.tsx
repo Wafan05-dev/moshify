@@ -3,6 +3,8 @@ import easy from "../assets/images/easy.jpg";
 import fast from "../assets/images/fast.jpg";
 import wordpress from "../assets/images/wordpress.jpg";
 import support from "../assets/images/support.jpg";
+import easyIcon from "../assets/icons/sprite.svg";
+import computer from "../assets/icons/sprite.svg";
 
 const Feature = () => {
   return (
@@ -18,7 +20,7 @@ const Feature = () => {
         <div className="feature__content" data-aos="fade-right">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
-              <use href="../src/assets/icons/sprite.svg#easy"></use>
+              <use href={`${easyIcon}#easy`}></use>
             </svg>
           </div>
           <h3 className="block__heading feature__heading">Super Easy to Use</h3>
@@ -44,7 +46,7 @@ const Feature = () => {
         <div className="feature__content" data-aos="fade-left">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
-              <use href="../src/assets/icons/sprite.svg#computer"></use>
+              <use href={`${computer}#computer`}></use>
             </svg>
           </div>
           <h3 className="block__heading feature__heading">
