@@ -1,5 +1,6 @@
 import Callout from "./Callout";
 import FooterCollapsible from "./FooterCollapsible";
+import logo from "../assets/images/logo.png";
 
 const Footer = () => {
   return (
@@ -60,11 +61,7 @@ const Footer = () => {
           ]}
         />
         <div className="footer__brand">
-          <img
-            className="footer__image"
-            src="../../src/assets/images/logo.png"
-            alt="Website Logo"
-          />
+          <img className="footer__image" src={logo} alt="Website Logo" />
           <p className="footer__copyright">Copyright © 2020 mosh</p>
         </div>
       </div>

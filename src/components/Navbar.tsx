@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   const [isExpanded, setExpanded] = useState(false);
@@ -12,11 +13,7 @@ const Navbar = () => {
       }
     >
       <a href="/">
-        <img
-          className="nav__brand"
-          src="../../src/assets/images/logo.png"
-          alt=""
-        />
+        <img className="nav__brand" src={logo} alt="" />
       </a>
       <svg
         onClick={() => (isExpanded ? setExpanded(false) : setExpanded(true))}
