@@ -1,6 +1,6 @@
 const Callout = () => {
   return (
-    <div className="callout callout--primary">
+    <div className="callout callout--primary" data-aos="fade-right">
       <div className="callout__text-container">
         <h2 className="callout__heading">Ready to get started?</h2>
         <p className="callout__text">

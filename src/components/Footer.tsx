@@ -1,8 +1,10 @@
+import Callout from "./Callout";
 import FooterCollapsible from "./FooterCollapsible";
 
 const Footer = () => {
   return (
     <footer className="block footer">
+      <Callout />
       <div className="container grid">
         <FooterCollapsible
           header="products"

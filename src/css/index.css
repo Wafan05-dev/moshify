@@ -1070,6 +1070,8 @@ a {
 /*Footer*/
 .footer {
   background-color: #232323;
+  padding: 0;
+  margin-top: 10rem;
 }
 
 .footer__section {
@@ -1109,6 +1111,14 @@ a {
   opacity: 0.3;
 }
 
+.footer .callout {
+  bottom: 10rem;
+  margin: 0 auto;
+  max-width: 980px;
+  position: relative;
+  width: 90%;
+}
+
 @media screen and (max-width: 420px) {
   .footer {
     padding: 0;
@@ -1124,6 +1134,10 @@ a {
 
   .footer__icons {
     margin-right: 1.5rem;
+  }
+
+  .callout__btn {
+    padding: 2rem 5rem;
   }
 }
 
