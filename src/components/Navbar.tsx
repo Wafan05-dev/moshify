@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/images/logo.png";
+import menu from "../assets/icons/sprite.svg";
 
 const Navbar = () => {
   const [isExpanded, setExpanded] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
         onClick={() => (isExpanded ? setExpanded(false) : setExpanded(true))}
         className="icon icon--white navbar__toggler"
       >
-        <use href="../src/assets/icons/sprite.svg#menu"></use>
+        <use href={`${menu}#menu`}></use>
       </svg>
       <ul className="list nav__list collapsible__content">
         <li className="nav__item">
