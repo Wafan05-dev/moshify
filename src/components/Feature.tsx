@@ -1,4 +1,8 @@
 import { BsArrowRight } from "react-icons/bs";
+import easy from "../assets/images/easy.jpg";
+import fast from "../assets/images/fast.jpg";
+import wordpress from "../assets/images/wordpress.jpg";
+import support from "../assets/images/support.jpg";
 
 const Feature = () => {
   return (
@@ -31,8 +35,8 @@ const Feature = () => {
         </div>
         <img
           className="feature__image"
-          src="../../src/assets/images/easy.jpg"
-          alt=""
+          src={easy}
+          alt="an image indicating easiness"
           data-aos="zoom-in"
         />
       </article>
@@ -59,8 +63,8 @@ const Feature = () => {
         </div>
         <img
           className="feature__image"
-          src="../../src/assets/images/fast.jpg"
-          alt=""
+          src={fast}
+          alt="an image indicating concept of being fast"
           data-aos="zoom-out"
         />
       </article>
@@ -87,8 +91,8 @@ const Feature = () => {
         </div>
         <img
           className="feature__image"
-          src="../../src/assets/images/wordpress.jpg"
-          alt=""
+          src={wordpress}
+          alt="wordpress picture"
           data-aos="zoom-in"
         />
       </article>
@@ -115,8 +119,8 @@ const Feature = () => {
         </div>
         <img
           className="feature__image"
-          src="../../src/assets/images/support.jpg"
-          alt=""
+          src={support}
+          alt="an image with the concept of support"
           data-aos="zoom-out"
         />
       </article>

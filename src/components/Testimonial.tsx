@@ -1,4 +1,5 @@
 import Quote from "../components/Quote";
+import testimonial from "../assets/images/testimonial.jpg";
 
 const Testimonial = () => {
   return (
@@ -15,7 +16,7 @@ const Testimonial = () => {
           <div className="testimonial__image-container">
             <img
               className="testimonial__image"
-              src="../../src/assets/images/testimonial.jpg"
+              src={testimonial}
               alt="A happy smiling customer."
             />
             <div className="icon-container testimonial__icon icon-container--accent">

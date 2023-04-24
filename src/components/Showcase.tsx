@@ -1,3 +1,5 @@
+import ipad from "../assets/images/ipad.png";
+
 const Showcase = () => {
   return (
     <section className="block block--dark block--skewed-right showcase">
@@ -8,7 +10,7 @@ const Showcase = () => {
         <img
           data-aos="fade-right"
           className="showcase__image"
-          src="../../src/assets/images/ipad.png"
+          src={ipad}
           alt="An ipad"
         />
         <div className="showcase__medias" data-aos="fade-up">
