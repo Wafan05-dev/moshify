@@ -1,3 +1,5 @@
+import heroImage from "../assets/images/banner.png";
+
 const Hero = () => {
   return (
     <section className="block block--dark block--skewed-left hero">
@@ -15,7 +17,7 @@ const Hero = () => {
         </header>
         <img
           className="hero__image"
-          src="../../src/assets/images/banner.png"
+          src={heroImage}
           alt=""
           data-aos="zoom-out"
         />
