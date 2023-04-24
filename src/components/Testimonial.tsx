@@ -1,5 +1,6 @@
 import Quote from "../components/Quote";
 import testimonial from "../assets/images/testimonial.jpg";
+import quotes from "../assets/icons/sprite.svg";
 
 const Testimonial = () => {
   return (
@@ -21,7 +22,7 @@ const Testimonial = () => {
             />
             <div className="icon-container testimonial__icon icon-container--accent">
               <svg className="icon--small icon--white">
-                <use href="../src/assets/icons/sprite.svg#quotes"></use>
+                <use href={`${quotes}#quotes`}></use>
               </svg>
             </div>
           </div>

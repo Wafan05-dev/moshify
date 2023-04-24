@@ -5,6 +5,8 @@ import wordpress from "../assets/images/wordpress.jpg";
 import support from "../assets/images/support.jpg";
 import easyIcon from "../assets/icons/sprite.svg";
 import computer from "../assets/icons/sprite.svg";
+import settings from "../assets/icons/sprite.svg";
+import clock from "../assets/icons/sprite.svg";
 
 const Feature = () => {
   return (
@@ -74,7 +76,7 @@ const Feature = () => {
         <div className="feature__content" data-aos="fade-right">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
-              <use href="../src/assets/icons/sprite.svg#settings"></use>
+              <use href={`${settings}#settings`}></use>
             </svg>
           </div>
           <h3 className="block__heading feature__heading">
@@ -102,7 +104,7 @@ const Feature = () => {
         <div className="feature__content" data-aos="fade-right">
           <div className="icon-container feature__icon">
             <svg className="icon icon--primary icon--round">
-              <use href="../src/assets/icons/sprite.svg#clock"></use>
+              <use href={`${clock}#clock`}></use>
             </svg>
           </div>
           <h3 className="block__heading feature__heading">

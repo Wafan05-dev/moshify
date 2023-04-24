@@ -1,4 +1,7 @@
 import ipad from "../assets/images/ipad.png";
+import easy from "../assets/icons/sprite.svg";
+import growth from "../assets/icons/sprite.svg";
+import wordpress from "../assets/icons/sprite.svg";
 
 const Showcase = () => {
   return (
@@ -17,7 +20,7 @@ const Showcase = () => {
           <div className="media">
             <div className="media__image">
               <svg className="icon icon--primary">
-                <use href="../src/assets/icons/sprite.svg#easy"></use>
+                <use href={`${easy}#easy`}></use>
               </svg>
             </div>
             <div className="media__body">
@@ -31,7 +34,7 @@ const Showcase = () => {
           <div className="media">
             <div className="media__image">
               <svg className="icon icon--primary">
-                <use href="../src/assets/icons/sprite.svg#growth"></use>
+                <use href={`${growth}#growth`}></use>
               </svg>
             </div>
             <div className="media__body">
@@ -45,7 +48,7 @@ const Showcase = () => {
           <div className="media">
             <div className="media__image">
               <svg className="icon icon--primary">
-                <use href="../src/assets/icons/sprite.svg#wordpress"></use>
+                <use href={`${wordpress}#wordpress`}></use>
               </svg>
             </div>
             <div className="media__body">
